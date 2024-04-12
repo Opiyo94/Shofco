@@ -1,0 +1,43 @@
+.container{
+    position:relative ;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url(https://images.pexels.com/photos/1029614/pexels-photo-1029614.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    font-size: 1.3em;
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    margin: 0 auto;
+    padding: 0.1% 0;
+    margin-right: 0;
+}
+nav>ul{
+    text-align: right;
+}
+ul>li{
+    display: inline;
+}
+ul>li>a{
+    text-transform: uppercase;
+    padding: 2%;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.733);
+}
+ul>li>a:hover{
+    box-shadow: 0 0 0 0.625em rgba(0, 0, 0, 0.1)
+     insert 0 0 0.625em rgba(255, 255, 255, 0.6)
+   
+}
+ul>li>a:hover{
+    
+    background-color:rgba(107, 93, 84, 0.678) ;
+}
+#Contacts{
+    background-color: dimgray;
+}
